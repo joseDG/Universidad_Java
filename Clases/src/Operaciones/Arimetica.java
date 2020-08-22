@@ -6,6 +6,17 @@ public class Arimetica {
     int a;
     int b;
     
+    //constructor vacio
+    public Arimetica(){
+        System.out.println("Ejecutando constructor");
+    }
+    
+    //constructor de sobrecarga
+    public Arimetica(int a, int b){
+        this.a = a;
+        this.b = b;
+        System.out.println("construcotr con argumetos");
+    }
     //Metodos
     public void sumar(){
         int resultado = a + b;
